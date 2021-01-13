@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primaryColor: rgb(14, 16, 133);
+  --secondaryColor: rgb(19, 151, 228);
+}
+h1 {
+  color: var(--primaryColor);
+}
+h2 {
+  color: var(--secondaryColor);
+}
+.container {
+  padding: 2rem;
+}
+.colors {
+  margin: 0.8rem 0.3rem;
+}
+.color1 {
+  background-color: red;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.color2 {
+  background-color: green;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.color3 {
+  background-color: orange;
+  padding: 0.5rem;
+  cursor: pointer;
+}
